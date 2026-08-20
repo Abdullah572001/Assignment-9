@@ -3,7 +3,7 @@ import { Link } from "react-router";
 const ServiceCard = ({ singleData }) => {
   //   console.log(singleData);
   return (
-    <div>
+    <div className="bg-white shadow-2xl">
       <img
         className="h-80 w-full object-cover object-top bg-gray-300 rounded-br-4xl"
         src={singleData?.image}
