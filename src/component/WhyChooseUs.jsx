@@ -2,8 +2,8 @@ import choose from "../assets/choose.jpg";
 
 const WhyChooseUs = () => {
   return (
-    <div className="w-11/12 md:w-10/12 mx-auto py-15 md:flex gap-8 justify-between items-center">
-      <div className="w-3/6">
+    <div className="w-11/12 lg:w-10/12 mx-auto py-15 md:flex gap-8 justify-between items-center">
+      <div className="md:w-3/6 mb-6 md:mb-0 text-center md:text-left">
         <div className="mb-10">
           <span className="py-3 px-5 bg-linear-to-r from-blue-600 to-cyan-400 text-white font-semibold rounded-br-2xl rounded-tl-2xl">
             Why Choose Us
@@ -25,8 +25,8 @@ const WhyChooseUs = () => {
           here every step of the way.
         </p>
       </div>
-      <div className="w-3/6">
-        <img className="rounded-bl-4xl" src={choose} alt="" />
+      <div className="md:w-3/6">
+        <img className="rounded-tl-4xl md:rounded-tl-none md:rounded-bl-4xl" src={choose} alt="" />
       </div>
     </div>
   );

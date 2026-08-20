@@ -5,7 +5,7 @@ const Service = () => {
   const [serviceData, setServiceData] = useState([]);
 
   useEffect(() => {
-    fetch("/public/services.json")
+    fetch("/services.json")
       .then((res) => res.json())
       .then((data) => setServiceData(data));
   }, []);
@@ -13,7 +13,7 @@ const Service = () => {
   //   console.log(serviceData);
 
   return (
-    <div className="w-11/12 mx-auto my-10 font-nunito">
+    <div className="w-11/12 lg:w-10/12 mx-auto my-10 font-nunito">
       <div className="flex justify-center items-center mb-4">
         <span className="py-3 px-5 bg-linear-to-r from-blue-600 to-cyan-400 text-white font-semibold text-md text-center rounded-br-2xl rounded-tl-2xl">
           Our Services

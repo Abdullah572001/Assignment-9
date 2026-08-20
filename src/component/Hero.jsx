@@ -6,11 +6,14 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Link } from "react-router";
 
+
 const Hero = () => {
   const [slider, setSlider] = useState();
 
+  // const res = await fetch("/public/sliderData.json")
+
   useEffect(() => {
-    fetch("/public/sliderData.json")
+    fetch("/sliderData.json")
       .then((res) => res.json())
       .then((data) => setSlider(data));
   }, []);
@@ -48,7 +51,7 @@ const Hero = () => {
               <img className="w-full object-cover" src={item.image} alt="" />
               <div className="md:absolute inset-0 bg-black/50"></div>
             </div>
-            <div className="w-11/12 mx-auto">
+            <div className="w-11/12 lg:w-10/12 mx-auto">
               <div className="md:w-3/6 md:absolute mt-4 md:top-20">
                 <h2 className="text-6xl font-bold text-black md:text-white">
                   {colorFirstWord(item.title)}

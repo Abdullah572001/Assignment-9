@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="w-11/12 mx-auto py-3 font-poppins">
+    <div className="w-11/12 lg:w-10/12 mx-auto py-3 font-poppins">
       <div className="navbar bg-base-100 px-0">
         <div className="navbar-start">
           <div className="dropdown ">
