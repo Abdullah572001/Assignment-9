@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/RpsLFrJB/counselor1.jpg",
+    "service_name": "Career Path Planning",
+    "category": "Career Development",
+    "pricing": 49,
+    "counselor_name": "Dr. Sarah Johnson"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/gMdry7y7/counselor8.png",
+    "service_name": "Resume & CV Review",
+    "category": "Job Preparation",
+    "pricing": 29,
+    "counselor_name": "Mr. James Williams"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/4ZQWRMf5/counselor3.jpg",
+    "service_name": "Interview Coaching",
+    "category": "Job Preparation",
+    "pricing": 59,
+    "counselor_name": "Ms. Emily Carter"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/S4XdnX5x/counselor4.jpg",
+    "service_name": "Student Career Guidance",
+    "category": "Academic Counseling",
+    "pricing": 39,
+    "counselor_name": "Dr. Michael Brown"
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/4gnPTVX0/counselor9.png",
+    "service_name": "LinkedIn Profile Optimization",
+    "category": "Personal Branding",
+    "pricing": 35,
+    "counselor_name": "Ms. Rachel Green"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/9HKW92tt/counselor10.png",
+    "service_name": "Salary Negotiation Strategy",
+    "category": "Career Growth",
+    "pricing": 45,
+    "counselor_name": "Mr. David Lee"
+  }
+]
