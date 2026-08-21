@@ -47,7 +47,7 @@ const Hero = () => {
       >
         {slider.map((item) => (
           <SwiperSlide className="relative" key={item.id}>
-            <div className="w-full md:h-160">
+            <div className="w-full md:h-150 lg:h-180">
               <img className="w-full object-cover" src={item.image} alt="" />
               <div className="md:absolute inset-0 bg-black/50"></div>
             </div>

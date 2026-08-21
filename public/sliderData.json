@@ -1,25 +1,25 @@
 [
   {
     "id": 1,
-    "image": "/src/assets/slider/slider_1.jpg",
+    "image": "https://i.ibb.co.com/LmKdyz4/slider-1.jpg",
     "title": "Find Your Dream Career",
     "description": "Discover your strengths, explore exciting opportunities, and get personalized guidance to choose the perfect career path that matches your skills, interests, and goals."
   },
   {
     "id": 2,
-    "image": "/src/assets/slider/slider_2.jpg",
+    "image": "https://i.ibb.co.com/rK5WpD9f/slider-2.jpg",
     "title": "Expert Career Counseling",
     "description": "Get professional advice from experienced counselors, understand your options clearly, overcome career challenges, and make confident decisions about your education, skills, and future."
   },
   {
     "id": 3,
-    "image": "/src/assets/slider/slider_3.jpg",
+    "image": "https://i.ibb.co.com/m597xxKs/slider-3.jpg",
     "title": "Your Success Starts Here",
     "description": "Take the first step toward success with clear career goals, practical guidance, personalized planning, and valuable resources designed to help you achieve your dreams."
   },
   {
     "id": 4,
-    "image": "/src/assets/slider/why.webp",
+    "image": "https://i.ibb.co.com/N6bg8ZzF/why.webp",
     "title": "Choose The Right Path",
     "description": "Find the right direction for your future through expert guidance, career assessments, skill development, and personalized recommendations that help you build a successful career."
   }

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "name": "Sarah Johnson",
+    "area": "New York, USA",
+    "review": "The career counseling session completely changed my perspective. My counselor helped me identify my strengths and guided me toward the perfect career path. Within three months, I landed my dream job. I highly recommend this service to anyone feeling lost in their career journey."
+  },
+  {
+    "id": 2,
+    "image": "https://randomuser.me/api/portraits/men/32.jpg",
+    "name": "James Williams",
+    "area": "London, UK",
+    "review": "I was struggling to choose between multiple job offers. The expert guidance I received here helped me make a confident decision. The counselor understood my goals deeply and provided practical advice that truly worked. This is the best investment I have ever made for my career."
+  },
+  {
+    "id": 3,
+    "image": "https://randomuser.me/api/portraits/women/68.jpg",
+    "name": "Priya Sharma",
+    "area": "Mumbai, India",
+    "review": "As a fresh graduate, I had no idea where to start. The counseling sessions gave me a clear roadmap and boosted my confidence. My counselor helped me build a strong resume and prepare for interviews. I got placed in a top company within two months. Truly life-changing experience."
+  },
+  {
+    "id": 4,
+    "image": "https://randomuser.me/api/portraits/men/76.jpg",
+    "name": "Ahmed Hassan",
+    "area": "Dubai, UAE",
+    "review": "Switching careers felt impossible until I found this platform. The counselor listened patiently, understood my situation, and created a personalized plan for me. Thanks to their support, I successfully transitioned into the tech industry. I am now happier and more successful than ever before."
+  }
+]
