@@ -1,3 +1,4 @@
+import Footer from "../component/Footer";
 import Hero from "../component/Hero";
 import Navbar from "../component/Navbar";
 import Review from "../component/Review";
@@ -21,6 +22,10 @@ const HomeLayout = () => {
 
       <div className="bg-linear-to-b from-white via-white/95 to-[#E6EFFF] py-10">
         <Review></Review>
+      </div>
+
+      <div className="bg-cyan-100">
+        <Footer></Footer>
       </div>
     </div>
   );

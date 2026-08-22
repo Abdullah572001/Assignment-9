@@ -6,7 +6,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Link } from "react-router";
 
-
 const Hero = () => {
   const [slider, setSlider] = useState();
 
@@ -39,6 +38,7 @@ const Hero = () => {
       <Swiper
         pagination={{
           type: "fraction",
+          enabled: false
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
@@ -52,7 +52,7 @@ const Hero = () => {
               <div className="md:absolute inset-0 bg-black/50"></div>
             </div>
             <div className="w-11/12 lg:w-10/12 mx-auto">
-              <div className="md:w-3/6 md:absolute mt-4 md:top-20">
+              <div className="md:w-3/6 md:absolute mt-4 md:top-20 text-center md:text-left">
                 <h2 className="text-6xl font-bold text-black md:text-white">
                   {colorFirstWord(item.title)}
                 </h2>
