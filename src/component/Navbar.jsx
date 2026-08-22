@@ -1,7 +1,11 @@
 import { Link } from "react-router";
 import logo from "../assets/logo.png";
+import { useContext } from "react";
+import { AuthContext } from "../provider/authContext";
 
 const Navbar = () => {
+  const { user, logout, loading } = useContext(AuthContext);
+
   return (
     <div className="w-11/12 lg:w-10/12 mx-auto py-3 font-poppins">
       <div className="navbar bg-base-100 px-0">
@@ -53,9 +57,28 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <Link to="/auth/login" className="btn bg-linear-to-r from-blue-600 to-cyan-400 text-white font-semibold text-md">
-            Login
-          </Link>
+          {user ? (
+            <div className="flex items-center gap-4">
+              <img
+                className="w-10 h-10 rounded-full"
+                src={user?.photoURL}
+                alt=""
+              />
+              <button
+                onClick={logout}
+                className="btn bg-linear-to-r from-blue-600 to-cyan-400 text-white font-semibold text-md"
+              >
+                Logout
+              </button>
+            </div>
+          ) : (
+            <Link
+              to="/auth/login"
+              className="btn bg-linear-to-r from-blue-600 to-cyan-400 text-white font-semibold text-md"
+            >
+              Login
+            </Link>
+          )}
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import { FaQuoteLeft } from "react-icons/fa6";
 
 const ReviewCard = ({ sR }) => {
-  console.log(sR);
+  // console.log(sR);
   return (
     <div className="h-full p-5 bg-base-100 shadow hover:shadow-2xl">
       <FaQuoteLeft className="text-cyan-500 text-2xl"></FaQuoteLeft>
